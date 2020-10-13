@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+
+        <style>
+            body{
+                height: 100%;
+                font-family: "Times New Roman", Times, serif;
+                scroll-behavior: smooth;
+                background-color: #99ffeb;
+                background-image: url("https://i.pinimg.com/originals/b7/9f/14/b79f148f4fbf6714fad1659e6b14489f.jpg");         
+                padding: 35px;
+                padding-top: 52px;
+                font-size: 14px;  
+            }  
+
+            .container{
+                font-style: italic;
+                border: 5em;
+                background-color:rgb(62, 214, 95);
+                margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+                border: 4px thin black;
+                width: 20%;
+                letter-spacing: 0.5mm;
+                padding-left: 5em;
+                padding-top: 2em;                              
+            }    
+
+            .container #btnLogin{
+                margin:2em;
+                justify-self: center;
+                background-color: rgb(18, 20, 11);
+                color: whitesmoke;
+            }      
+        </style>
+    </head>
+
+    <body>
+        <form>
+            <div class="container">
+                <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" required>
+                <br><br>
+                <label for="password"><b>Password </b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+                    <br>
+                    <br>
+
+                <button type="login" id="btnLogin">Login</button>                
+            </div>
+        </form>
+                
+    </body>
+
+</html>
